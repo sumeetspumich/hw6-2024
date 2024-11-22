@@ -5,7 +5,6 @@ window.addEventListener("load", function () {
 	video = document.querySelector(".video");
 	video.autoplay = false;
 	video.loop = false;
-	updateVolumnInfo();
 });
 
 document.querySelector("#pause").addEventListener("click", function () {
